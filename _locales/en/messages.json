@@ -1,0 +1,42 @@
+{
+  "extName":            { "message": "ReallyReadIt" },
+  "extDescription":     { "message": "When you save a bookmark, asks if you want to add it to your reading queue." },
+
+  "promptHeading":      { "message": "Add to reading list?" },
+  "promptAccept":       { "message": "Yes, add" },
+  "promptDecline":      { "message": "No" },
+
+  "queueHeading":       { "message": "Reading queue" },
+  "addCurrentTitle":    { "message": "Add current page to reading list" },
+  "settingsTitle":      { "message": "Settings" },
+  "settingsBookmarkMode": { "message": "On new bookmark:" },
+  "settingsModeAsk":    { "message": "Ask" },
+  "settingsModeAlways": { "message": "Always add" },
+  "settingsTheme":      { "message": "Theme:" },
+  "settingsThemeAuto":  { "message": "Browser default" },
+  "settingsThemeLight": { "message": "Light" },
+  "settingsThemeDark":  { "message": "Dark" },
+  "settingsCaptureBookmarks": { "message": "Capture bookmarks" },
+  "settingsAddOrder":   { "message": "Add new entries:" },
+  "settingsAddOrderTop": { "message": "At the top" },
+  "settingsAddOrderBottom": { "message": "At the bottom" },
+  "queueEmpty":         { "message": "Nothing pending." },
+
+  "itemDragHandle":     { "message": "Drag to reorder" },
+  "itemMarkRead":       { "message": "Mark as read" },
+  "itemMarkUnread":     { "message": "Mark as unread" },
+  "itemRemove":         { "message": "Remove from queue" },
+  "itemBookmarkSaved":  { "message": "Saved in bookmarks" },
+  "itemBookmarkSavedIn": {
+    "message": "Saved in bookmarks: $PATH$",
+    "placeholders": { "path": { "content": "$1" } }
+  },
+
+  "badgePrompt":        { "message": "Reading list — add this bookmark?" },
+  "badgeUnread": {
+    "message": "Reading list ($COUNT$ unread)",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "badgeTitle":         { "message": "Reading list" },
+  "cannotAddPage":      { "message": "Cannot add this page" }
+}

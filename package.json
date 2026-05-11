@@ -1,0 +1,12 @@
+{
+  "name": "really-read-it",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Reading-queue browser extension",
+  "scripts": {
+    "test": "node --test --test-reporter=spec 'test/*.test.js'"
+  },
+  "devDependencies": {
+    "jsdom": "^25.0.1"
+  }
+}

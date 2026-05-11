@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Reading list</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <section id="prompt" class="prompt hidden">
+    <h1 data-i18n="promptHeading"></h1>
+    <p id="prompt-title" class="prompt-title"></p>
+    <p id="prompt-url" class="prompt-url"></p>
+    <div class="prompt-actions">
+      <button id="accept" class="btn primary" data-i18n="promptAccept"></button>
+      <button id="decline" class="btn" data-i18n="promptDecline"></button>
+    </div>
+  </section>
+
+  <section class="queue">
+    <header class="queue-header">
+      <h2 data-i18n="queueHeading"></h2>
+      <span id="queue-count" class="queue-count">0</span>
+      <button id="add-current" class="add-current" data-i18n-title="addCurrentTitle" data-i18n-aria="addCurrentTitle">+</button>
+    </header>
+    <ul id="queue-list" class="queue-list"></ul>
+    <p id="queue-empty" class="queue-empty hidden" data-i18n="queueEmpty"></p>
+  </section>
+
+  <footer class="popup-footer">
+    <div id="settings-panel" class="settings-panel hidden">
+      <label for="capture-bookmarks" data-i18n="settingsCaptureBookmarks"></label>
+      <input type="checkbox" id="capture-bookmarks" />
+      <label for="bookmark-mode" data-i18n="settingsBookmarkMode"></label>
+      <select id="bookmark-mode">
+        <option value="ask" data-i18n="settingsModeAsk"></option>
+        <option value="always" data-i18n="settingsModeAlways"></option>
+      </select>
+      <label for="theme-mode" data-i18n="settingsTheme"></label>
+      <select id="theme-mode">
+        <option value="auto" data-i18n="settingsThemeAuto"></option>
+        <option value="light" data-i18n="settingsThemeLight"></option>
+        <option value="dark" data-i18n="settingsThemeDark"></option>
+      </select>
+      <label for="add-order" data-i18n="settingsAddOrder"></label>
+      <select id="add-order">
+        <option value="top" data-i18n="settingsAddOrderTop"></option>
+        <option value="bottom" data-i18n="settingsAddOrderBottom"></option>
+      </select>
+    </div>
+    <div class="popup-footer-bar">
+      <button id="settings-btn" class="settings-btn" data-i18n-title="settingsTitle">⚙</button>
+    </div>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

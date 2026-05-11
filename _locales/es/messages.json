@@ -1,0 +1,42 @@
+{
+  "extName":            { "message": "ReallyReadIt" },
+  "extDescription":     { "message": "Al guardar un marcador, pregunta si quieres añadirlo a tu cola de lectura pendiente." },
+
+  "promptHeading":      { "message": "¿Añadir a pendientes?" },
+  "promptAccept":       { "message": "Sí, añadir" },
+  "promptDecline":      { "message": "No" },
+
+  "queueHeading":       { "message": "Cola de lectura" },
+  "addCurrentTitle":    { "message": "Añadir página actual a pendientes" },
+  "settingsTitle":      { "message": "Configuración" },
+  "settingsBookmarkMode": { "message": "Al guardar marcador:" },
+  "settingsModeAsk":    { "message": "Preguntar" },
+  "settingsModeAlways": { "message": "Añadir siempre" },
+  "settingsTheme":      { "message": "Tema:" },
+  "settingsThemeAuto":  { "message": "Automático" },
+  "settingsThemeLight": { "message": "Claro" },
+  "settingsThemeDark":  { "message": "Oscuro" },
+  "settingsCaptureBookmarks": { "message": "Capturar marcadores" },
+  "settingsAddOrder":   { "message": "Nuevas entradas:" },
+  "settingsAddOrderTop": { "message": "Al principio" },
+  "settingsAddOrderBottom": { "message": "Al final" },
+  "queueEmpty":         { "message": "No hay nada pendiente." },
+
+  "itemDragHandle":     { "message": "Arrastra para reordenar" },
+  "itemMarkRead":       { "message": "Marcar como leído" },
+  "itemMarkUnread":     { "message": "Marcar como no leído" },
+  "itemRemove":         { "message": "Quitar de la cola" },
+  "itemBookmarkSaved":  { "message": "Guardado en marcadores" },
+  "itemBookmarkSavedIn": {
+    "message": "Guardado en marcadores: $PATH$",
+    "placeholders": { "path": { "content": "$1" } }
+  },
+
+  "badgePrompt":        { "message": "Pendientes de leer — ¿añadir este marcador?" },
+  "badgeUnread": {
+    "message": "Pendientes de leer ($COUNT$ sin leer)",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "badgeTitle":         { "message": "Pendientes de leer" },
+  "cannotAddPage":      { "message": "No se puede añadir esta página" }
+}
