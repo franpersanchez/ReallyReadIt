@@ -177,6 +177,12 @@ function buildQueueItem(item, bookmark) {
 
   li.append(handle, favicon, link, bookmarkIcon, toggle, remove);
   attachDragHandlers(li);
+
+  li.addEventListener("click", async (e) => {
+    e.stopPropagation();
+    await chrome.runtime.sendMessage({ type: "toggleRead", url: item.url });
+  });
+
   return li;
 }
 
