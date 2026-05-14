@@ -1,6 +1,6 @@
 {
   "extName":            { "message": "ReallyReadIt" },
-  "extDescription":     { "message": "Al guardar un marcador, pregunta si quieres añadirlo a tu cola de lectura pendiente." },
+  "extDescription":     { "message": "Asegúrate de leer realmente las páginas que marques como favoritas." },
 
   "promptHeading":      { "message": "¿Añadir a pendientes?" },
   "promptAccept":       { "message": "Sí, añadir" },

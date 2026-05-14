@@ -1,6 +1,6 @@
 {
   "extName":            { "message": "ReallyReadIt" },
-  "extDescription":     { "message": "When you save a bookmark, asks if you want to add it to your reading queue." },
+  "extDescription":     { "message": "Make sure you actually read the pages you bookmark." },
 
   "promptHeading":      { "message": "Add to reading list?" },
   "promptAccept":       { "message": "Yes, add" },
